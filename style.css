@@ -40,8 +40,10 @@ h1 {
     padding: 1em;
 }
 .topnav {
-    overflow: hidden;
-    background-color: #4CAF50;
+    
+        background-color: #7daf7d;
+        padding: 20px;
+        text-align: center;
 }
 
 .topnav a {
