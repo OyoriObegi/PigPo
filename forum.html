@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>forum</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+	
+   <style>
+    body{
+      background-color: lightgreen;
+    }
+    .container-forum {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.community-forum {
+    margin-top:20px;
+    background-color:lightgoldenrodyellow;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.community-forum-body {
+    margin-top: 30px;
+}
+
+.name {
+    margin-top: 20px;
+}
+
+.name label {
+    display: block;
+}
+
+.name input {
+    width: 50%;
+}
+
+.name textarea {
+    width: 100%;
+}
+
+
+
+.but{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+}
+.but:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+
+.panel {
+    margin-top: 20px;
+}
+
+.panel-body {
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+   </style>
+  </head>
+ <body>
+
+  <div class="container-forum">
+
+    <div class="community-forum" >
+        <div class="community-forum-body">
+            <h3>Community forum</h3>
+            <hr>
+            <form name="frm" method="post">
+            <input type="hidden" id="commentid" name="Pcommentid" value="0">
+	              <div class="name">
+	                  <label for="farmer">Farmers name:</label>
+	                  <input type="text" class="form-control" name="name" required>
+	              </div>
+                <div class="name">
+                    <label for="comment">Write your question:</label>
+                    <textarea class="form-control" rows="5" name="msg" required></textarea>
+                </div>
+	              <input type="button" id="but" name="save" class="btn " value="Send">
+           </form>
+        </div>
+    </div>
+
+  
+
+    <div class="panel ">
+      <div class="panel-body">
+         <h4>Recent questions</h4>           
+	       <table class="table" id="MyTable" style="background-color: #edfafa; border:0px;border-radius:10px">
+	        <tbody id="record">
+		
+	        </tbody>
+	       </table>
+      </div>
+   </div>
+
+
+ </body>
+</html>
