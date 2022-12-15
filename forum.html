@@ -4,12 +4,10 @@
    <title>forum</title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   
+   <link rel="stylesheet" type="text/css" href="style.css">
 	
    <style>
-    body{
-      background-color: lightgreen;
-    }
+    
     .container-forum {
     width: 80%;
     margin: 0 10%;
@@ -75,21 +73,31 @@
    </style>
   </head>
  <body>
-
+    <div class="topnav">
+        
+		<a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+		<a href="news.html">News and Events</a>
+		<a href="restaurants.html">Restaurants</a>
+		<a href="market.html">Farm Market</a>
+		<a href="recipes.html">Recipes</a>
+       
+		
+	</div>
   <div class="container-forum">
 
     <div class="community-forum" >
         <div class="community-forum-body">
-            <h3>Community forum</h3>
+            <h2>Community Forum</h2>
             <hr>
             <form name="frm" method="post">
             <input type="hidden" id="commentid" name="Pcommentid" value="0">
 	              <div class="name">
-	                  <label for="farmer">Farmers name:</label>
+	                  <label for="farmer">Name:</label>
 	                  <input type="text" class="form-control" name="name" required>
 	              </div>
                 <div class="name">
-                    <label for="comment">Write your question:</label>
+                    <label for="comment">Post your comment or ask a question:</label>
                     <textarea class="form-control" rows="5" name="msg" required></textarea>
                 </div>
 	              <input type="button" id="but" name="save" class="btn " value="Send">
@@ -101,7 +109,7 @@
 
     <div class="panel ">
       <div class="panel-body">
-         <h4>Recent questions</h4>           
+         <h2>Recent Questions</h2>           
 	       <table class="table" id="MyTable" style="background-color: #edfafa; border:0px;border-radius:10px">
 	        <tbody id="record">
 		
@@ -109,7 +117,10 @@
 	       </table>
       </div>
    </div>
-
+   
+   <div class="footer">
+    &copy; 2022 PigPo. All Rights Reserved.
+    </div>
 
  </body>
 </html>

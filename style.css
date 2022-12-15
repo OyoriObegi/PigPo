@@ -30,7 +30,17 @@ h1 {
     text-align: center;    
 }
 
+h4{
+	color:greenyellow;
+	background-color:black;
+	font-family: Romans;
+	font-style:bold;
+}
 
+form{
+	color: green;
+	background-color: lightgoldenrodyellow;
+}
 .container {
     width: 70%;
     margin: 0 auto;
@@ -184,6 +194,113 @@ h1 {
     font-family: sans-serif;
     color: #e9ecf0;
   }
+
+  .main {
+    padding: 20px;
+}
+
+.main h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.main a {
+    color: #F7941E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    background-color: #F5F5F5;
+}
+
+.sidebar h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.sidebar .search {
+    padding: 10px;
+    background-color: white;
+    color: #100f0f;
+}
+
+.container-forum {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.community-forum {
+    margin-top:20px;
+    background-color:lightgoldenrodyellow;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.community-forum-body {
+    margin-top: 30px;
+}
+
+.name {
+    margin-top: 20px;
+}
+
+.name label {
+    display: block;
+}
+
+.name input {
+    width: 50%;
+}
+
+.name textarea {
+    width: 100%;
+}
+
+
+
+.but{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+}
+.but:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+
+.panel {
+    margin-top: 20px;
+}
+
+.panel-body {
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid black;
+    border-radius: 20px;
+}
 
 
 .footer {
