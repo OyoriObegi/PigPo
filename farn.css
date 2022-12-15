@@ -1,0 +1,55 @@
+body{
+    background-color: rgba(160, 240, 158, 0.11);
+}
+
+.header0 {
+    background-color: blanchedalmond;
+    color: #04AA6D;
+    font-size: x-large;
+    font-style: italic;
+    font-weight:bold ;
+    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.container {
+    padding: 16px;
+}
+
+.header {
+    background-color: aliceblue ;
+    color: #04AA6D;
+}
+
+ [type=password],[type=text] {
+width: 70%;
+padding: 10px;
+display: inline-block;
+background: #f1f1f1;
+}
+input [type=text]:focus, [type=password]:focus {
+background-color: #ddd;
+ }
+hr{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 24px;
+}
+.registerbtn {
+    background-color: #04AA6D;
+    color: black;
+    padding: 10px 20px;
+    margin: auto;
+    cursor: pointer;
+    width: 70%;
+    opacity: 0.9;
+    font-size: large;
+}
+.registerbtn:hover {
+    opacity: 1;
+}
+.signin {
+    background-color: aliceblue;
+    text-align: center;
+}
